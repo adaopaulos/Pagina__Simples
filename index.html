@@ -53,11 +53,20 @@
 
         button{
             width: 300px;
-            height: 30px;
+            height: 48px;
             border-radius: 14px;
             transform: translateY(100px);
-            margin-top: 10px;
             background-color:  rgb(241, 219, 191);
+            transition-timing-function: ease;
+            transition: all 0.9s;
+        }
+
+
+        button:hover{
+            height: 30px;
+            border: 14px;
+            color: rgba(3, 70, 116, 0.774);
+            width: 240px;
         }
     </style>
 </head>
@@ -84,8 +93,7 @@
         </section>
     </main>
     <footer>
-        <button>Sobre Mim</button>
-        <button>Contacto</button>
+        <button>Objectivos</button>
     </footer>
     
 </body>
